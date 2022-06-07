@@ -1,0 +1,7 @@
+ATAJOS DE TECLADO
+
+
+div.item -> <div class:"item"> </div>
+div.wave.wave--bottom -> <div class:"wave wave--bottom"> </div>
+
+bgi -> backgraound-image: url();
