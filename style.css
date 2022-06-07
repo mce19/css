@@ -1,0 +1,61 @@
+:root{
+  --poppins: 'open sans', sans-serif;
+  --open-sans: 'Poppins', sans-serif;
+  --Pink: hsl(322, 100%, 66%);
+--Light-Pink: hsl(321, 100%, 78%);
+--Red: hsl(0, 100%, 63%);
+--dark-cyan: hsl(192, 100%, 9%);
+--pale-Blue: hsl(207, 100%, 98%);
+--padding-container: 80px 0;
+
+}
+
+body{
+font-family: var(--open-sans);
+}
+
+.container{
+   
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+ .hero{
+     min-height: 100vh;
+     position: relative;
+
+ }
+
+ .hero__nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     --padding-container: 60px 0 45px;
+
+
+ }
+
+
+ .hero__logo{ 
+     width: 45%;
+     max-width: 160px;
+ } 
+
+ .hero__huddle{
+     width: 100%;
+     display: block;
+
+ }
+
+ .hero__cta{
+     color: var(--Light-Pink);
+     text-decoration: none;
+     border: 2px solid var(--Light-Pink);
+     padding: 6px 16px;
+     border-radius: 30px;
+     font-weight:600;
+     box-shadow: 0 0 1px;
+
+ }
